@@ -1,4 +1,5 @@
-function Card() {
+/* eslint-disable react/prop-types */
+function Card(props) {
   return (
     <div>
       <div className="max-w-sm bg-white border mb-5 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -12,7 +13,7 @@ function Card() {
         <div className="p-5">
           <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+              {props.username}
             </h5>
           </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">

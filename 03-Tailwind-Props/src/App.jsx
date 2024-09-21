@@ -6,8 +6,8 @@ function App() {
     <>
       {" "}
       <h1 className="mb-3 text-black bg-green-400 rounded-xl p-5">hello</h1>
-      <Card />
-      <Card />
+      <Card username="Kaustubh" />
+      <Card username="Pookie" />
     </>
   );
 }
