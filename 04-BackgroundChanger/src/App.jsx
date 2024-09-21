@@ -56,7 +56,7 @@ function App() {
             Purple
           </button>
           <button
-            className="outline-none text-black rounded-full mr-4 px-4 py-1 shadow-lg"
+            className="outline-none text-black rounded-full  px-4 py-1 shadow-lg"
             style={{ backgroundColor: "pink" }}
             onClick={() => {
               setColor("pink");
