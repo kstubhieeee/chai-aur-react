@@ -10,7 +10,7 @@ function useCurrencyInfo(currency) {
     fetch(
       `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json`
     )
-      .then((res) => res.json) //har ek api se json object string ke form mei aata hai, ye line of code usse json mei convert krti hai
+      .then((res) => res.json()) //har ek api se json object string ke form mei aata hai, ye line of code usse json mei convert krti hai
       .then((res) => setData(res[currency])); //idhr ham data variable mei currency ka value store krre hai
   }, [currency]);
   console.log(data);
