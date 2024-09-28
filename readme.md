@@ -11,32 +11,37 @@
 
 2. **Component Lifecycle Methods**  
    Students learn about different lifecycle methods in React, such as:
+
    - `componentDidMount`
    - `componentDidUpdate`
    - `componentWillUnmount`
-   
+
    These methods are essential for optimizing performance in React applications.
 
 3. **State Management**  
    Learn various state management techniques in React:
+
    - Using state variables
    - Context API
    - Redux
 
 4. **Event Handling**  
    Explore how to handle events in React, including:
+
    - Mouse events
    - Keyboard events
    - API calls
 
 5. **React Hooks**  
    This section introduces React Hooks, a new way to manage state and side effects in functional components. Learn how to simplify and modernize React code with:
+
    - `useState`
    - `useEffect`
    - Custom hooks
 
 6. **Advanced Topics**  
    Dive into advanced React topics like:
+
    - React Router for navigation
    - Webpack for module bundling
    - TypeScript for building typed React applications
@@ -47,6 +52,7 @@
 ## Course Outcome
 
 By the end of the course, students will have:
+
 - A solid understanding of React and its ecosystem.
 - The ability to build and deploy scalable, production-ready React applications.
 
